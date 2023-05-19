@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: #007f5f;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    background-color: #2b9348;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+}
+
+.logo a {
+    color: #dad7cd;
+    font-size: 2.5rem;
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive, sans-serif;
+    padding: 0 130px;
+}
+
+.nav-links ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-links li {
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.nav-links a {
+    color: #dad7cd;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 40px;
+}
+
+
+
+.home {
+    background-color: #2b9348;
+    padding: 150px 150px 100px;
+    display: flex;
+}
+
+.home h1 {
+    color: #dad7cd;
+margin-right: 10px;
+font-size: 3.2rem;
+font-family: 'Ubuntu', sans-serif;
+}
+.home p {
+    color: #dad7cd;
+    align-items: center;
+    padding: 20px 0;
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+}
+.home img {
+    max-width: 100%;
+    width: 600px;
+    height: 300px;
+    border-radius: 12px;
+}
+.home button {
+    padding: 10px 30px;
+    background-color: #007f5f;
+    border: 2px solid #007f5f;
+    border-radius: 10px;
+    color: #dad7cd;
+}
+.home button:hover {
+    background-color: #2b9348;
+}
+
+.tourism {
+    background-color: #80b918;
+    padding: 100px 50px 100px 50px;
+}
+.tourism h1 {
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #dad7cd;
+    font-size: 3.2rem;
+} 
+.tourism p {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    color: #dad7cd;
+}
+
+.cities {
+    display: flex;
+    
+}
+.item {
+    flex: 1;
+    text-align: center;
+    margin: 10px;
+}
+.item img {
+    max-width: 100%;
+    width: 200px;
+    height: 180px;
+    border: 2px solid #2b9348;
+    border-radius: 20px;
+    flex: 1;
+}
+.tourism .item p {
+    margin-top: 0;
+}
+
+
+.text {
+    background-color: #168aad;
+    padding: 100px 200px;
+}
+.text p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.2rem;
+    text-align: justify;
+    color: #dad7cd;
+}
+
+
+.contact {
+    background-color: #eeef20;
+    padding: 100px;
+}
+
+.container {
+    padding: 50px 70px;
+    background-color: #168aad;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contact h1 {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: #dad7cd;
+    font-size: 3.2rem;
+}
+.contact button {
+    padding: 10px 30px;
+    background-color: #184e77;
+    border: 2px solid #184e77;
+    border-radius: 10px;
+    color: #dad7cd;
+    text-decoration: none;
+    
+}
+.contact button:hover {
+    background-color: #00b4d8;
+    border: 2px solid #00b4d8;
+}
+.contact button a {
+    text-decoration: none;
+    color:#dad7cd;
+}
+
+footer {
+    background-color: #007f5f;
+    padding: 30px 100px;
+}
+footer p {
+    color:#dad7cd;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
